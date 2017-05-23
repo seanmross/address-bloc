@@ -52,5 +52,7 @@ class AddressBook
      return nil
    end
 
-
+   def nuke_entries
+     @entries = []
+   end
 end
